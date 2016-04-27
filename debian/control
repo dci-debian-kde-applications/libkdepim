@@ -43,8 +43,8 @@ Package: libkf5libkdepim-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 16.04)
-Replaces: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 16.04)
+Breaks: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
+Replaces: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
 Description: KDE PIM library - data files
  This is the internal runtime package for applications from the KDE PIM module.
  It contains data files used by the the library.
@@ -57,8 +57,8 @@ Multi-Arch: same
 Depends: libkf5libkdepim-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Breaks: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 16.04)
-Replaces: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 16.04)
+Breaks: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
+Replaces: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
 Description: KDE PIM library - plugins
  This is the internal runtime package for applications from the KDE PIM module.
  It contains plugins that are distributed with the library.

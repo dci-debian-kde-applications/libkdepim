@@ -1,10 +1,8 @@
-libkf5libkdepim (16.04.0-1~2.gbp7c5751) UNRELEASED; urgency=medium
+libkf5libkdepim (4:16.04.0-1~2.gbp7c5751) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @7c57516fd1c0d057cc76b6e31ff9536b5e6706cc **
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @04b6981cbcce795a7c41e8d1cf4e1e5c359cf328 **
-
   * Initial release.
   * Update build-deps and deps with the info from cmake
   * Initial packaging
