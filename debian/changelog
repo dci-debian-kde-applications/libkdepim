@@ -1,6 +1,6 @@
-libkf5libkdepim (4:16.04.0-1~2.gbp7c5751) UNRELEASED; urgency=medium
+libkf5libkdepim (4:16.04.0-1~3.gbp4c1cc3) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @7c57516fd1c0d057cc76b6e31ff9536b5e6706cc **
+  ** SNAPSHOT build @4c1cc356f0734457899e498d308f20ea72270b15 **
 
   [ Maximiliano Curia ]
   * Initial release.
@@ -18,5 +18,6 @@ libkf5libkdepim (4:16.04.0-1~2.gbp7c5751) UNRELEASED; urgency=medium
 
   [ Automatic packaging ]
   * Update changelog for 16.04.0-1~2.gbp04b698 release
+  * Update symbols files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 15:06:07 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 27 Apr 2016 16:15:49 +0200
