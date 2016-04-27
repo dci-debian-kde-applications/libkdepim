@@ -1,4 +1,5 @@
 usr/include/KF5/libkdepim/
+usr/include/KF5/Libkdepim/
 usr/lib/*/cmake/KF5Libkdepim/
 usr/lib/*/cmake/MailTransportDBusService/MailTransportDBusServiceConfig.cmake
 usr/lib/*/libKF5Libkdepim.so
