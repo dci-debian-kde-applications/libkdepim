@@ -1,5 +1,5 @@
 # SymbolsHelper-Confirmed: 16.04 amd64
-libKF5Libkdepim.so.5 liblibkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
+libKF5Libkdepim.so.5 ibkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 16.04
  _ZN4KPIM11MailSummary3setEjRK7QStringS3_S3_S3_l@Base 16.04
  _ZN4KPIM11MailSummaryC1EjRK7QStringS3_S3_S3_l@Base 16.04
