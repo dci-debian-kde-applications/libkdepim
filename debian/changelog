@@ -1,5 +1,15 @@
-libkf5kdepim (16.03.90-1~) UNRELEASED; urgency=medium
+libkf5kdepim (16.04.0-1~1.gbp314573) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @31457359cf51047dc12d691361604837839cae65 **
 
   * Initial release.
+  * Update build-deps and deps with the info from cmake
+  * Initial packaging
+  * Update watch file to use the unstable version
+  * The auto_tests need X to be run
+  * Update install files
+  * Add data a plugins packages
+  * Add missing headers for CamelCase users
+  * debian/watch: unstable > stable, :(
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Apr 2016 14:57:06 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 12:55:19 +0200
