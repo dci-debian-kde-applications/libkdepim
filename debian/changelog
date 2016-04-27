@@ -1,6 +1,6 @@
-libkf5kdepim (16.04.0-1~1.gbp314573) UNRELEASED; urgency=medium
+libkf5kdepim (16.04.0-1~2.gbp04b698) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @31457359cf51047dc12d691361604837839cae65 **
+  ** SNAPSHOT build @04b6981cbcce795a7c41e8d1cf4e1e5c359cf328 **
 
   * Initial release.
   * Update build-deps and deps with the info from cmake
@@ -11,5 +11,6 @@ libkf5kdepim (16.04.0-1~1.gbp314573) UNRELEASED; urgency=medium
   * Add data a plugins packages
   * Add missing headers for CamelCase users
   * debian/watch: unstable > stable, :(
+  * Update acc file
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 12:55:19 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 13:33:32 +0200
