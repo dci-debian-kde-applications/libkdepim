@@ -1,4 +1,4 @@
-libkf5kdepim (16.04.0-1~2.gbp04b698) UNRELEASED; urgency=medium
+libkf5libkdepim (16.04.0-1~1.gbp314573) UNRELEASED; urgency=medium
 
   ** SNAPSHOT build @04b6981cbcce795a7c41e8d1cf4e1e5c359cf328 **
 
@@ -14,3 +14,4 @@ libkf5kdepim (16.04.0-1~2.gbp04b698) UNRELEASED; urgency=medium
   * Update acc file
 
  -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 27 Apr 2016 13:33:32 +0200
+

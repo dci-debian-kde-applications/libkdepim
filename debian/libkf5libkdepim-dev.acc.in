@@ -8,6 +8,7 @@
 <headers>
     /usr/include/KF5/libkdepim/
     /usr/include/KF5/Libkdepim/
+    /usr/include/KF5/libkdepim_version.h
 </headers>
 
 <libs>

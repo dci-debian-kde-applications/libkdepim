@@ -1,4 +1,4 @@
-Source: libkf5kdepim
+Source: libkf5libkdepim
 Section: libs
 Priority: optional
 Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
