@@ -1,7 +1,2 @@
 usr/lib/*/libKF5Libkdepim.so.5
 usr/lib/*/libKF5Libkdepim.so.5.*
-usr/lib/*/qt5/plugins//designer/kdepimwidgets.so
-usr/share/kdepimwidgets/pics/addresseelineedit.png
-usr/share/kdepimwidgets/pics/clicklineedit.png
-usr/share/kdepimwidgets/pics/kdateedit.png
-usr/share/kdepimwidgets/pics/ktimeedit.png

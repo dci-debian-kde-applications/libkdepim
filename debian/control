@@ -28,9 +28,11 @@ Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkdepim.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkdepim.git
 
 Package: libkf5libkdepim5
-Section: libs
 Architecture: any
-Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: same
+Depends: libkf5libkdepim-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
 Breaks: kaddressbook (<< 4:4.13.90),
         libkdepim4 (<< 4:15.07.90),
         libkdepim5,
@@ -45,14 +47,37 @@ Description: KDE PIM library
  .
  This package is part of the KDE PIM module.
 
+Package: libkf5libkdepim-data
+Architecture: all
+Multi-Arch: foreign
+Depends: ${misc:Depends}
+Description: KDE PIM library - data files
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains data files used by the the library.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5libkdepim-plugins
+Architecture: any
+Multi-Arch: same
+Depends: libkf5libkdepim-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: KDE PIM library - plugins
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains plugins that are distributed with the library.
+ .
+ This package is part of the KDE PIM module.
+
 Package: libkf5libkdepim-dev
 Section: libsdevel
 Architecture: any
+Multi-Arch: same
 Depends: libkf5libkdepim5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
-Description: Sieve mail filtering language support for kdepim, development files
- This library implements a parser and lexer for Sieve, the mail filtering
- language (RFC 3028).
+Description: KDE PIM library - development files
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains headers, and the libraries needed to build some of the KDE PIM applications.
  .
  This package is part of the KDE PIM module.
