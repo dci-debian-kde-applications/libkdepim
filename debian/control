@@ -6,7 +6,7 @@ Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12~),
                debhelper (>= 9),
                extra-cmake-modules (>= 5.19.0~),
-               libkf5akonadi-dev (>= 5.2.40~),
+               libkf5akonadi-dev (>= 4:5.2.0~),
                libkf5akonadicontact-dev (>= 5.2.40~),
                libkf5akonadisearch-dev (>= 5.0.42~),
                libkf5codecs-dev (>= 5.19.0~),
