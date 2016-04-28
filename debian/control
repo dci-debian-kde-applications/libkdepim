@@ -66,7 +66,7 @@ Description: KDE PIM library - plugins
  This package is part of the KDE PIM module.
 
 Package: libkf5libkdepim-dev
-Section: libsdevel
+Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5libkdepim5 (= ${binary:Version}),
