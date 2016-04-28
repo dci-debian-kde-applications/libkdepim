@@ -1,6 +1,6 @@
-libkf5libkdepim (4:16.04.0-1~4.gbp889443) UNRELEASED; urgency=medium
+libkf5libkdepim (4:16.04.0-1~5.gbp19567f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @889443f8a3b87b8a2ea2a7c9a32660626deda7aa **
+  ** SNAPSHOT build @19567f8f5f714402acad68d846c8e710238758b1 **
 
   [ Maximiliano Curia ]
   * Initial release.
@@ -16,9 +16,11 @@ libkf5libkdepim (4:16.04.0-1~4.gbp889443) UNRELEASED; urgency=medium
   * Update acc file
   * Rename source package, add missing file
   * Fix typo in the symbols file
+  * Fix wrong section name
+  * Update the acc test
 
   [ Automatic packaging ]
   * Update changelog for 16.04.0-1~2.gbp04b698 release
   * Update symbols files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 28 Apr 2016 09:49:59 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Thu, 28 Apr 2016 10:12:17 +0200
