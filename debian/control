@@ -69,7 +69,13 @@ Package: libkf5libkdepim-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5libkdepim5 (= ${binary:Version}),
+Depends: libkf5akonadi-dev (>= 4:5.2.0~),
+         libkf5completion-dev (>= 5.19.0~),
+         libkf5contacts-dev (>= 5.2.40~),
+         libkf5coreaddons-dev,
+         libkf5ldap-dev (>= 5.2.40~),
+         libkf5libkdepim5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: KDE PIM library - development files
