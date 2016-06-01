@@ -1,6 +1,6 @@
-libkf5libkdepim (4:16.04.1-1~2.gbp4c0485) UNRELEASED; urgency=medium
+libkf5libkdepim (4:16.04.1-1~3.gbpda93b8) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4c04850c83ce7373748357c4e3bf9d59ae6c941c **
+  ** SNAPSHOT build @da93b8dc62c67f9e30ca30448f2f5f48ab776065 **
 
   [ Maximiliano Curia ]
   * Initial release.
@@ -20,9 +20,10 @@ libkf5libkdepim (4:16.04.1-1~2.gbp4c0485) UNRELEASED; urgency=medium
   * Update the acc test
   * UNRELEASED
   * Add missing dev dependency (thanks to the acc headers check)
+  * Bump kdepim dependencies
 
   [ Automatic packaging ]
   * Update changelog for 16.04.0-1~2.gbp04b698 release
   * Update symbols files
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 11 May 2016 17:26:30 +0200
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 01 Jun 2016 11:11:23 +0200
