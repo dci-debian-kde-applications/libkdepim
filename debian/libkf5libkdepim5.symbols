@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.0 armhf
+# SymbolsHelper-Confirmed: 4:16.04.1 arm64 hppa powerpc ppc64el s390x sparc64
 libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 16.04
  _ZN4KPIM11MailSummary3setEjRK7QStringS3_S3_S3_l@Base 16.04
@@ -968,8 +968,8 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZNK5KLDAP22LdapClientSearchConfig10metaObjectEv@Base 16.04
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN9KContacts12ContactGroupEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES7_E4typeEv@Base 16.04
  (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN9KContacts9AddresseeEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES7_E4typeEv@Base 16.04
- (optional=templinst|arch=!armhf)_ZNK7Akonadi4Item14hasPayloadImplIN9KContacts12ContactGroupEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 16.04
- (optional=templinst|arch=!armhf)_ZNK7Akonadi4Item14hasPayloadImplIN9KContacts9AddresseeEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 16.04
+ (optional=templinst|arch=!armhf !arm64 !hppa !powerpc !ppc64el !s390x !sparc64)_ZNK7Akonadi4Item14hasPayloadImplIN9KContacts12ContactGroupEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 16.04
+ (optional=templinst|arch=!armhf !arm64 !hppa !powerpc !ppc64el !s390x !sparc64)_ZNK7Akonadi4Item14hasPayloadImplIN9KContacts9AddresseeEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEbE4typeEv@Base 16.04
  _ZTIN4KPIM12KPrefsDialogE@Base 16.04
  _ZTIN4KPIM12KPrefsModuleE@Base 16.04
  _ZTIN4KPIM12KPrefsWidIntE@Base 16.04
