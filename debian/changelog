@@ -1,3 +1,15 @@
+libkf5libkdepim (4:16.04.1-2~1.gbpdbf3f7) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @dbf3f7f3d02aed7289da49e42e7dfb5cf29e15b5 **
+
+  [ Maximiliano Curia ]
+  * Add new upstream patch: upstream_add_copying.patch
+
+  [ Automatic packaging ]
+  * Update symbols files with the buildds results
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 03 Jun 2016 16:14:57 +0200
+
 libkf5libkdepim (4:16.04.1-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
