@@ -1,6 +1,4 @@
-libkf5libkdepim (4:16.04.2-1~1.gbpe3c323) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @e3c323bb0b0380bf98f289a1e750fee354bccc5b **
+libkf5libkdepim (4:16.04.2-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
   * Add new upstream patch: upstream_add_copying.patch
@@ -9,7 +7,7 @@ libkf5libkdepim (4:16.04.2-1~1.gbpe3c323) UNRELEASED; urgency=medium
   * Update symbols files with the buildds results
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Wed, 15 Jun 2016 05:12:11 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 28 Jun 2016 14:56:54 +0200
 
 libkf5libkdepim (4:16.04.1-1) experimental; urgency=medium
 
