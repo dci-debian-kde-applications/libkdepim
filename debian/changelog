@@ -1,3 +1,9 @@
+libkf5libkdepim (4:16.04.3-0neon) xenial; urgency=medium
+
+  * New release
+
+ -- Neon CI <neon@kde.org>  Wed, 03 Aug 2016 12:51:31 +0000
+
 libkf5libkdepim (4:16.04.2-3) unstable; urgency=medium
 
   * Update symbols files with the results from the buildds
