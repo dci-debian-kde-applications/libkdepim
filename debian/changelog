@@ -1,10 +1,17 @@
-libkf5libkdepim (4:16.04.3-1~1.gbp5eb65e) UNRELEASED; urgency=medium
+libkf5libkdepim (4:16.08.0-1~1.gbp8c9a41) UNRELEASED; urgency=medium
 
+  ** SNAPSHOT build @8c9a41206e39caaa1b05ea8aeae2ad73841daa4a **
+
+  [ Maximiliano Curia ]
   ** SNAPSHOT build @5eb65efa688a5cfadb54392efb46bb974f51f232 **
 
   * UNRELEASED
 
- -- Maximiliano Curia <jenkins@gnuservers.com.ar>  Wed, 13 Jul 2016 16:12:19 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+  * Refresh patches
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:12:18 +0200
 
 libkf5libkdepim (4:16.04.2-3) unstable; urgency=medium
 
