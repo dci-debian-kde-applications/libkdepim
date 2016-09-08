@@ -15,7 +15,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5completion-dev (>= 5.23.0~),
                libkf5config-dev (>= 5.23.0~),
                libkf5configwidgets-dev (>= 5.23.0~),
-               libkf5contacts-dev (>= 5.3.0~),
+               libkf5contacts-dev (>= 5.3.1~),
                libkf5coreaddons-dev (>= 5.23.0~),
                libkf5i18n-dev (>= 5.23.0~),
                libkf5iconthemes-dev (>= 5.23.0~),
@@ -76,11 +76,11 @@ Package: libkf5libkdepim-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5akonadi-dev (>= 4:5.3.0~),
+Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5completion-dev (>= 5.23.0~),
-         libkf5contacts-dev (>= 5.3.0~),
+         libkf5contacts-dev (>= 5.3.1~),
          libkf5coreaddons-dev (>= 5.23.0~),
-         libkf5ldap-dev (>= 5.3.0~),
+         libkf5ldap-dev (>= 5.3.1~),
          libkf5libkdepim5 (= ${binary:Version}),
          qtbase5-dev (>= 5.5.0~),
          ${misc:Depends},
