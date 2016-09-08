@@ -1,6 +1,6 @@
-libkf5libkdepim (4:16.08.0-1~1.gbp8c9a41) UNRELEASED; urgency=medium
+libkf5libkdepim (4:16.08.1-1~1.gbpcfb174) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @8c9a41206e39caaa1b05ea8aeae2ad73841daa4a **
+  ** SNAPSHOT build @cfb174157735bda971f13a46a65231a0bdfcc49a **
 
   [ Maximiliano Curia ]
   ** SNAPSHOT build @5eb65efa688a5cfadb54392efb46bb974f51f232 **
@@ -10,8 +10,9 @@ libkf5libkdepim (4:16.08.0-1~1.gbp8c9a41) UNRELEASED; urgency=medium
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
+  * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 18 Aug 2016 23:12:18 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Thu, 08 Sep 2016 23:12:45 +0200
 
 libkf5libkdepim (4:16.04.2-3) unstable; urgency=medium
 
