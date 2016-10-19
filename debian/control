@@ -83,3 +83,12 @@ Description: KDE PIM library - development files
  It contains headers, and the libraries needed to build some of the KDE PIM applications.
  .
  This package is part of the KDE PIM module.
+
+Package: libkf5akonadisocialutils-dev
+Section: oldlibs
+Priority: extra
+Architecture: any
+Multi-Arch: same
+Description: KDE PIM library - transitional
+ Transitional library for libkf5akonadisocialutils, this is to allow
+ "libkf5.*-dev" regex to install on Neon.
