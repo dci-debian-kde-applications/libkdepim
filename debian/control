@@ -90,6 +90,6 @@ Depends: ${misc:Depends}
 Architecture: all
 Priority: extra
 Section: oldlibs
-Description: KDE PIM library - transitional
- Transitional library for libkf5akonadisocialutils, this is to allow
+Description: KDE PIM library - transitional package
+ transitional package for libkf5akonadisocialutils, this is to allow
  "libkf5.*-dev" regex to install on Neon.
