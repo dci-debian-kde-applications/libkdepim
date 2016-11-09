@@ -47,7 +47,7 @@ Breaks: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
 Replaces: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
 Description: KDE PIM library - data files
  This is the internal runtime package for applications from the KDE PIM module.
- It contains data files used by the the library.
+ It contains data files used by the library.
  .
  This package is part of the KDE PIM module.
 
@@ -80,15 +80,16 @@ Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          ${shlibs:Depends}
 Description: KDE PIM library - development files
  This is the internal runtime package for applications from the KDE PIM module.
- It contains headers, and the libraries needed to build some of the KDE PIM applications.
+ It contains headers, and the libraries needed to build some of the KDE PIM
+ applications.
  .
  This package is part of the KDE PIM module.
 
 Package: libkf5akonadisocialutils-dev
-Section: oldlibs
+Depends: ${misc:Depends}
+Architecture: all
 Priority: extra
-Architecture: any
-Multi-Arch: same
+Section: oldlibs
 Description: KDE PIM library - transitional
  Transitional library for libkf5akonadisocialutils, this is to allow
  "libkf5.*-dev" regex to install on Neon.
