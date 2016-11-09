@@ -54,7 +54,7 @@ Breaks: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
 Replaces: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
 Description: KDE PIM library - data files
  This is the internal runtime package for applications from the KDE PIM module.
- It contains data files used by the the library.
+ It contains data files used by the library.
  .
  This package is part of the KDE PIM module.
 
