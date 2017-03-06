@@ -2,6 +2,7 @@ usr/include/KF5/Libkdepim/
 usr/include/KF5/LibkdepimAkonadi/
 usr/include/KF5/libkdepim/
 usr/include/KF5/libkdepim_version.h
+usr/include/KF5/libkdepimakonadi/
 usr/lib/*/cmake/KF5Libkdepim/
 usr/lib/*/cmake/MailTransportDBusService/MailTransportDBusServiceConfig.cmake
 usr/lib/*/libKF5Libkdepim.so
