@@ -3,7 +3,12 @@ usr/include/KF5/LibkdepimAkonadi/
 usr/include/KF5/libkdepim/
 usr/include/KF5/libkdepim_version.h
 usr/include/KF5/libkdepimakonadi/
+usr/include/KF5/libkdepimakonadi_version.h
 usr/lib/*/cmake/KF5Libkdepim/
+usr/lib/*/cmake/KF5LibkdepimAkonadi/KF5LibkdepimAkonadiConfig.cmake
+usr/lib/*/cmake/KF5LibkdepimAkonadi/KF5LibkdepimAkonadiConfigVersion.cmake
+usr/lib/*/cmake/KF5LibkdepimAkonadi/KF5LibkdepimAkonadiTargets-debian.cmake
+usr/lib/*/cmake/KF5LibkdepimAkonadi/KF5LibkdepimAkonadiTargets.cmake
 usr/lib/*/cmake/MailTransportDBusService/MailTransportDBusServiceConfig.cmake
 usr/lib/*/libKF5Libkdepim.so
 usr/lib/*/libKF5LibkdepimAkonadi.so
