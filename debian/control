@@ -33,7 +33,21 @@ Multi-Arch: same
 Depends: libkf5libkdepim-data (>= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: libkf5libkdepim-plugins
 Description: KDE PIM library
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains shared libraries and data which most of KDE PIM applications use.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5libkdepimakonadi5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5libkdepim-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Recommends: libkf5libkdepim-plugins
+Description: KDE PIM Akonadi library
  This is the internal runtime package for applications from the KDE PIM module.
  It contains shared libraries and data which most of KDE PIM applications use.
  .
@@ -43,8 +57,12 @@ Package: libkf5libkdepim-data
 Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
-Breaks: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
-Replaces: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
+Breaks: kaddressbook (<< 4:16.04),
+        libkf5libkdepim5 (<< 4:16.04),
+        ${kde-l10n:all}
+Replaces: kaddressbook (<< 4:16.04),
+          libkf5libkdepim5 (<< 4:16.04),
+          ${kde-l10n:all}
 Description: KDE PIM library - data files
  This is the internal runtime package for applications from the KDE PIM module.
  It contains data files used by the library.
@@ -75,6 +93,7 @@ Depends: libkf5akonadi-dev (>= 4:5.2.0~),
          libkf5coreaddons-dev,
          libkf5ldap-dev (>= 5.2.40~),
          libkf5libkdepim5 (= ${binary:Version}),
+         libkf5libkdepimakonadi5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4.0~),
          ${misc:Depends},
          ${shlibs:Depends}

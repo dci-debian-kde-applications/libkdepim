@@ -1,7 +1,8 @@
-etc/xdg/libkdepim.renamecategories
 etc/xdg/libkdepim.categories
+etc/xdg/libkdepim.renamecategories
 usr/share/kdepimwidgets/pics/addresseelineedit.png
 usr/share/kdepimwidgets/pics/clicklineedit.png
 usr/share/kdepimwidgets/pics/kdateedit.png
 usr/share/kdepimwidgets/pics/ktimeedit.png
 usr/share/kservices5/kcmldap.desktop
+usr/share/locale/
