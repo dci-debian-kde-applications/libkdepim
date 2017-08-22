@@ -15,6 +15,7 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5completion-dev (>= 5.23.0~),
                libkf5config-dev (>= 5.23.0~),
                libkf5configwidgets-dev (>= 5.23.0~),
+               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5contacts-dev (>= 5.3.1~),
                libkf5coreaddons-dev (>= 5.23.0~),
                libkf5i18n-dev (>= 5.23.0~),
@@ -22,44 +23,26 @@ Build-Depends: cmake (>= 2.8.12~),
                libkf5itemviews-dev (>= 5.23.0~),
                libkf5jobwidgets-dev (>= 5.23.0~),
                libkf5kcmutils-dev (>= 5.23.0~),
-               libkf5contacteditor-dev (>= 17.04.0~),
                libkf5ldap-dev (>= 16.04~),
                libkf5mime-dev (>= 16.04~),
                libkf5wallet-dev (>= 5.23.0~),
                libkf5widgetsaddons-dev (>= 5.23.0~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.5.0~),
-               qttools5-dev (>= 5.4.0~)
+               qttools5-dev (>= 5.4.0~),
 Standards-Version: 4.1.0
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkdepim.git
 Vcs-Git: https://anonscm.debian.org/git/pkg-kde/applications/libkdepim.git
 
-Package: libkf5libkdepim5
-Architecture: any
-Multi-Arch: same
-Depends: libkf5libkdepim-data (>= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: libkf5libkdepim-plugins
-Description: KDE PIM library
- This is the internal runtime package for applications from the KDE PIM module.
- It contains shared libraries and data which most of KDE PIM applications use.
- .
- This package is part of the KDE PIM module.
-
-Package: libkf5libkdepimakonadi5
-Architecture: any
-Multi-Arch: same
-Depends: libkf5libkdepim-data (>= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Recommends: libkf5libkdepim-plugins
-Description: KDE PIM Akonadi library
- This is the internal runtime package for applications from the KDE PIM module.
- It contains shared libraries and data which most of KDE PIM applications use.
- .
- This package is part of the KDE PIM module.
+Package: libkf5akonadisocialutils-dev
+Depends: ${misc:Depends}
+Architecture: all
+Priority: extra
+Section: oldlibs
+Description: KDE PIM library - transitional package
+ transitional package for libkf5akonadisocialutils, this is to allow
+ "libkf5.*-dev" regex to install on Neon.
 
 Package: libkf5libkdepim-data
 Architecture: all
@@ -67,27 +50,13 @@ Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: kaddressbook (<< 4:16.04),
         libkf5libkdepim5 (<< 4:16.04),
-        ${kde-l10n:all}
+        ${kde-l10n:all},
 Replaces: kaddressbook (<< 4:16.04),
           libkf5libkdepim5 (<< 4:16.04),
-          ${kde-l10n:all}
+          ${kde-l10n:all},
 Description: KDE PIM library - data files
  This is the internal runtime package for applications from the KDE PIM module.
  It contains data files used by the library.
- .
- This package is part of the KDE PIM module.
-
-Package: libkf5libkdepim-plugins
-Architecture: any
-Multi-Arch: same
-Depends: libkf5libkdepim-data (>= ${source:Version}),
-         ${misc:Depends},
-         ${shlibs:Depends}
-Breaks: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
-Replaces: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
-Description: KDE PIM library - plugins
- This is the internal runtime package for applications from the KDE PIM module.
- It contains plugins that are distributed with the library.
  .
  This package is part of the KDE PIM module.
 
@@ -101,10 +70,10 @@ Depends: libkf5akonadi-dev (>= 4:5.3.1~),
          libkf5coreaddons-dev (>= 5.23.0~),
          libkf5ldap-dev (>= 5.3.1~),
          libkf5libkdepim5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.5.0~),
          libkf5libkdepimakonadi5 (= ${binary:Version}),
+         qtbase5-dev (>= 5.5.0~),
          ${misc:Depends},
-         ${shlibs:Depends}
+         ${shlibs:Depends},
 Description: KDE PIM library - development files
  This is the internal runtime package for applications from the KDE PIM module.
  It contains headers, and the libraries needed to build some of the KDE PIM
@@ -112,11 +81,42 @@ Description: KDE PIM library - development files
  .
  This package is part of the KDE PIM module.
 
-Package: libkf5akonadisocialutils-dev
-Depends: ${misc:Depends}
-Architecture: all
-Priority: extra
-Section: oldlibs
-Description: KDE PIM library - transitional package
- transitional package for libkf5akonadisocialutils, this is to allow
- "libkf5.*-dev" regex to install on Neon.
+Package: libkf5libkdepim-plugins
+Architecture: any
+Multi-Arch: same
+Depends: libkf5libkdepim-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Breaks: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
+Replaces: kaddressbook (<< 4:16.04), libkf5libkdepim5 (<< 4:16.04)
+Description: KDE PIM library - plugins
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains plugins that are distributed with the library.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5libkdepim5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5libkdepim-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: libkf5libkdepim-plugins
+Description: KDE PIM library
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains shared libraries and data which most of KDE PIM applications use.
+ .
+ This package is part of the KDE PIM module.
+
+Package: libkf5libkdepimakonadi5
+Architecture: any
+Multi-Arch: same
+Depends: libkf5libkdepim-data (>= ${source:Version}),
+         ${misc:Depends},
+         ${shlibs:Depends},
+Recommends: libkf5libkdepim-plugins
+Description: KDE PIM Akonadi library
+ This is the internal runtime package for applications from the KDE PIM module.
+ It contains shared libraries and data which most of KDE PIM applications use.
+ .
+ This package is part of the KDE PIM module.
