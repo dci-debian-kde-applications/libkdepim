@@ -49,9 +49,13 @@ Architecture: all
 Multi-Arch: foreign
 Depends: ${misc:Depends}
 Breaks: kaddressbook (<< 4:16.04),
+        kde-l10n-ast (<< 4:17.03.90-0~),
+        kde-l10n-eo (<< 4:17.03.90-0~),
         libkf5libkdepim5 (<< 4:16.04),
         ${kde-l10n:all},
 Replaces: kaddressbook (<< 4:16.04),
+          kde-l10n-ast (<< 4:17.03.90-0~),
+          kde-l10n-eo (<< 4:17.03.90-0~),
           libkf5libkdepim5 (<< 4:16.04),
           ${kde-l10n:all},
 Description: KDE PIM library - data files
