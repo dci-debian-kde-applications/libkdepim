@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:16.04.2 amd64 armel hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel x32
+# SymbolsHelper-Confirmed: 4:17.08.0 amd64
 libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 16.04
  (subst)_ZN4KPIM11MailSummary3setEjRK7QStringS3_S3_S3_{time_t}@Base 16.04
@@ -72,18 +72,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN4KPIM12ProgressItemD2Ev@Base 16.04
  _ZN4KPIM12UiStateSaver12restoreStateEP7QWidgetRK12KConfigGroup@Base 16.04
  _ZN4KPIM12UiStateSaver9saveStateEP7QWidgetR12KConfigGroup@Base 16.04
- _ZN4KPIM13AddContactJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM13AddContactJob11qt_metacastEPKc@Base 16.04
- _ZN4KPIM13AddContactJob14showMessageBoxEb@Base 16.04
- _ZN4KPIM13AddContactJob16staticMetaObjectE@Base 16.04
- _ZN4KPIM13AddContactJob5startEv@Base 16.04
- _ZN4KPIM13AddContactJobC1ERKN9KContacts9AddresseeEP7QWidgetP7QObject@Base 16.04
- _ZN4KPIM13AddContactJobC1ERKN9KContacts9AddresseeERKN7Akonadi10CollectionEP7QObject@Base 16.04
- _ZN4KPIM13AddContactJobC2ERKN9KContacts9AddresseeEP7QWidgetP7QObject@Base 16.04
- _ZN4KPIM13AddContactJobC2ERKN9KContacts9AddresseeERKN7Akonadi10CollectionEP7QObject@Base 16.04
- _ZN4KPIM13AddContactJobD0Ev@Base 16.04
- _ZN4KPIM13AddContactJobD1Ev@Base 16.04
- _ZN4KPIM13AddContactJobD2Ev@Base 16.04
  _ZN4KPIM13KPrefsWidBool10readConfigEv@Base 16.04
  _ZN4KPIM13KPrefsWidBool11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
  _ZN4KPIM13KPrefsWidBool11qt_metacastEPKc@Base 16.04
@@ -309,24 +297,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN4KPIM15MultiplyingLine9upPressedEPS0_@Base 16.04
  _ZN4KPIM15MultiplyingLineC1EP7QWidget@Base 16.04
  _ZN4KPIM15MultiplyingLineC2EP7QWidget@Base 16.04
- _ZN4KPIM15PersonSearchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM15PersonSearchJob11qt_metacastEPKc@Base 16.04
- _ZN4KPIM15PersonSearchJob12modifyResultEP4KJob@Base 16.04
- _ZN4KPIM15PersonSearchJob12personUpdateERKNS_6PersonE@Base 16.04
- _ZN4KPIM15PersonSearchJob12personsFoundERK7QVectorINS_6PersonEE@Base 16.04
- _ZN4KPIM15PersonSearchJob16onLDAPSearchDataERK7QVectorIN5KLDAP16LdapResultObjectEE@Base 16.04
- _ZN4KPIM15PersonSearchJob16onLDAPSearchDoneEv@Base 16.04
- _ZN4KPIM15PersonSearchJob16staticMetaObjectE@Base 16.04
- _ZN4KPIM15PersonSearchJob20onCollectionsFetchedEP4KJob@Base 16.04
- _ZN4KPIM15PersonSearchJob21onCollectionsReceivedERK7QVectorIN7Akonadi10CollectionEE@Base 16.04
- _ZN4KPIM15PersonSearchJob22updatePersonCollectionERKNS_6PersonE@Base 16.04
- _ZN4KPIM15PersonSearchJob4killEN4KJob13KillVerbosityE@Base 16.04
- _ZN4KPIM15PersonSearchJob5startEv@Base 16.04
- _ZN4KPIM15PersonSearchJobC1ERK7QStringP7QObject@Base 16.04
- _ZN4KPIM15PersonSearchJobC2ERK7QStringP7QObject@Base 16.04
- _ZN4KPIM15PersonSearchJobD0Ev@Base 16.04
- _ZN4KPIM15PersonSearchJobD1Ev@Base 16.04
- _ZN4KPIM15PersonSearchJobD2Ev@Base 16.04
  _ZN4KPIM15ProgressManager11getUniqueIDEv@Base 16.04
  _ZN4KPIM15ProgressManager11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
  _ZN4KPIM15ProgressManager11qt_metacastEPKc@Base 16.04
@@ -335,7 +305,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN4KPIM15ProgressManager17progressItemAddedEPNS_12ProgressItemE@Base 16.04
  _ZN4KPIM15ProgressManager17progressItemLabelEPNS_12ProgressItemERK7QString@Base 16.04
  _ZN4KPIM15ProgressManager18createProgressItemEPNS_12ProgressItemERK7QStringS5_S5_bNS1_12CryptoStatusE@Base 16.04
- _ZN4KPIM15ProgressManager18createProgressItemEPNS_12ProgressItemERKN7Akonadi13AgentInstanceERK7QStringS9_S9_bNS1_12CryptoStatusE@Base 16.04
  _ZN4KPIM15ProgressManager18createProgressItemERK7QString@Base 16.04
  _ZN4KPIM15ProgressManager18createProgressItemERK7QStringS3_S3_S3_bNS_12ProgressItem12CryptoStatusE@Base 16.04
  _ZN4KPIM15ProgressManager18createProgressItemERK7QStringS3_S3_bNS_12ProgressItem12CryptoStatusE@Base 16.04
@@ -351,7 +320,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN4KPIM15ProgressManager24progressItemCryptoStatusEPNS_12ProgressItemENS1_12CryptoStatusE@Base 16.04
  _ZN4KPIM15ProgressManager24slotTransactionCompletedEPNS_12ProgressItemE@Base 16.04
  _ZN4KPIM15ProgressManager25slotStandardCancelHandlerEPNS_12ProgressItemE@Base 16.04
- _ZN4KPIM15ProgressManager26createProgressItemForAgentEPNS_12ProgressItemERKN7Akonadi13AgentInstanceERK7QStringS9_S9_bNS1_12CryptoStatusEj@Base 16.04
  _ZN4KPIM15ProgressManager26emitShowProgressDialogImplEv@Base 16.04
  _ZN4KPIM15ProgressManager29progressItemUsesBusyIndicatorEPNS_12ProgressItemEb@Base 16.04
  _ZN4KPIM15ProgressManager3uIDE@Base 16.04
@@ -404,67 +372,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN4KPIM16KPrefsWidManagerD0Ev@Base 16.04
  _ZN4KPIM16KPrefsWidManagerD1Ev@Base 16.04
  _ZN4KPIM16KPrefsWidManagerD2Ev@Base 16.04
- _ZN4KPIM17AddEmailDiplayJob10setContactERKN7Akonadi4ItemE@Base 16.04
- _ZN4KPIM17AddEmailDiplayJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM17AddEmailDiplayJob11qt_metacastEPKc@Base 16.04
- _ZN4KPIM17AddEmailDiplayJob13setShowAsHTMLEb@Base 16.04
- _ZN4KPIM17AddEmailDiplayJob16setRemoteContentEb@Base 16.04
- _ZN4KPIM17AddEmailDiplayJob16staticMetaObjectE@Base 16.04
- _ZN4KPIM17AddEmailDiplayJob5startEv@Base 16.04
- _ZN4KPIM17AddEmailDiplayJobC1ERK7QStringP7QWidgetP7QObject@Base 16.04
- _ZN4KPIM17AddEmailDiplayJobC2ERK7QStringP7QWidgetP7QObject@Base 16.04
- _ZN4KPIM17AddEmailDiplayJobD0Ev@Base 16.04
- _ZN4KPIM17AddEmailDiplayJobD1Ev@Base 16.04
- _ZN4KPIM17AddEmailDiplayJobD2Ev@Base 16.04
- _ZN4KPIM17AddresseeLineEdit10addAddressERK7QString@Base 16.04
- _ZN4KPIM17AddresseeLineEdit10addContactERKN9KContacts9AddresseeEii7QString@Base 16.04
- _ZN4KPIM17AddresseeLineEdit11cursorAtEndEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit11eventFilterEP7QObjectP6QEvent@Base 16.04
- _ZN4KPIM17AddresseeLineEdit11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit11qt_metacastEPKc@Base 16.04
- _ZN4KPIM17AddresseeLineEdit12expandGroupsEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit12insertEmailsERK11QStringList@Base 16.04
- _ZN4KPIM17AddresseeLineEdit12loadContactsEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit13keyPressEventEP9QKeyEvent@Base 16.04
- _ZN4KPIM17AddresseeLineEdit13textCompletedEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit15addContactGroupERKN9KContacts12ContactGroupEii@Base 16.04
- _ZN4KPIM17AddresseeLineEdit15setExpandInternEb@Base 16.04
- _ZN4KPIM17AddresseeLineEdit16cleanupEmailListERK11QStringList@Base 16.04
- _ZN4KPIM17AddresseeLineEdit16contextMenuEventEP17QContextMenuEvent@Base 16.04
- _ZN4KPIM17AddresseeLineEdit16enableCompletionEb@Base 16.04
- _ZN4KPIM17AddresseeLineEdit16staticMetaObjectE@Base 16.04
- _ZN4KPIM17AddresseeLineEdit17callUserCancelledERK7QString@Base 16.04
- _ZN4KPIM17AddresseeLineEdit17emitTextCompletedEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit17groupExpandResultEP4KJob@Base 16.04
- _ZN4KPIM17AddresseeLineEdit17mouseReleaseEventEP11QMouseEvent@Base 16.04
- _ZN4KPIM17AddresseeLineEdit18setAutoGroupExpandEb@Base 16.04
- _ZN4KPIM17AddresseeLineEdit19addCompletionSourceERK7QStringi@Base 16.04
- _ZN4KPIM17AddresseeLineEdit19configureCompletionEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit19slotEditingFinishedEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit20callSetCompletedTextERK7QString@Base 16.04
- _ZN4KPIM17AddresseeLineEdit20callSetCompletedTextERK7QStringb@Base 16.04
- _ZN4KPIM17AddresseeLineEdit20callSetUserSelectionEb@Base 16.04
- _ZN4KPIM17AddresseeLineEdit20setEnableBalooSearchEb@Base 16.04
- _ZN4KPIM17AddresseeLineEdit20updateBalooBlackListEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit21slotGroupSearchResultEP4KJob@Base 16.04
- _ZN4KPIM17AddresseeLineEdit21updateCompletionOrderEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit22removeCompletionSourceERK7QString@Base 16.04
- _ZN4KPIM17AddresseeLineEdit22setRecentAddressConfigEP7KConfig@Base 16.04
- _ZN4KPIM17AddresseeLineEdit22setShowRecentAddressesEb@Base 16.04
- _ZN4KPIM17AddresseeLineEdit22slotToggleExpandGroupsEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit25allowSemicolonAsSeparatorEb@Base 16.04
- _ZN4KPIM17AddresseeLineEdit25createStandardContextMenuEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit5pasteEv@Base 16.04
- _ZN4KPIM17AddresseeLineEdit6insertERK7QString@Base 16.04
- _ZN4KPIM17AddresseeLineEdit7addItemERKN7Akonadi4ItemEii@Base 16.04
- _ZN4KPIM17AddresseeLineEdit7setFontERK5QFont@Base 16.04
- _ZN4KPIM17AddresseeLineEdit7setTextERK7QString@Base 16.04
- _ZN4KPIM17AddresseeLineEdit9dropEventEP10QDropEvent@Base 16.04
- _ZN4KPIM17AddresseeLineEditC1EP7QWidgetb@Base 16.04
- _ZN4KPIM17AddresseeLineEditC2EP7QWidgetb@Base 16.04
- _ZN4KPIM17AddresseeLineEditD0Ev@Base 16.04
- _ZN4KPIM17AddresseeLineEditD1Ev@Base 16.04
- _ZN4KPIM17AddresseeLineEditD2Ev@Base 16.04
  _ZN4KPIM17KPrefsWidDuration10readConfigEv@Base 16.04
  _ZN4KPIM17KPrefsWidDuration11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
  _ZN4KPIM17KPrefsWidDuration11qt_metacastEPKc@Base 16.04
@@ -474,20 +381,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN4KPIM17KPrefsWidDuration8timeEditEv@Base 16.04
  _ZN4KPIM17KPrefsWidDurationC1EPN19KCoreConfigSkeleton12ItemDateTimeERK7QStringP7QWidget@Base 16.04
  _ZN4KPIM17KPrefsWidDurationC2EPN19KCoreConfigSkeleton12ItemDateTimeERK7QStringP7QWidget@Base 16.04
- _ZN4KPIM17TagSelectionCombo11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM17TagSelectionCombo11qt_metacastEPKc@Base 16.04
- _ZN4KPIM17TagSelectionCombo16staticMetaObjectE@Base 16.04
- _ZN4KPIM17TagSelectionComboC1EP7QWidget@Base 16.04
- _ZN4KPIM17TagSelectionComboC2EP7QWidget@Base 16.04
- _ZN4KPIM18AddEmailAddressJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM18AddEmailAddressJob11qt_metacastEPKc@Base 16.04
- _ZN4KPIM18AddEmailAddressJob16staticMetaObjectE@Base 16.04
- _ZN4KPIM18AddEmailAddressJob5startEv@Base 16.04
- _ZN4KPIM18AddEmailAddressJobC1ERK7QStringP7QWidgetP7QObject@Base 16.04
- _ZN4KPIM18AddEmailAddressJobC2ERK7QStringP7QWidgetP7QObject@Base 16.04
- _ZN4KPIM18AddEmailAddressJobD0Ev@Base 16.04
- _ZN4KPIM18AddEmailAddressJobD1Ev@Base 16.04
- _ZN4KPIM18AddEmailAddressJobD2Ev@Base 16.04
  _ZN4KPIM18KWeekdayCheckCombo11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
  _ZN4KPIM18KWeekdayCheckCombo11qt_metacastEPKc@Base 16.04
  _ZN4KPIM18KWeekdayCheckCombo16staticMetaObjectE@Base 16.04
@@ -497,79 +390,22 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN4KPIM18KWeekdayCheckComboD0Ev@Base 16.04
  _ZN4KPIM18KWeekdayCheckComboD1Ev@Base 16.04
  _ZN4KPIM18KWeekdayCheckComboD2Ev@Base 16.04
- _ZN4KPIM18TagSelectionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM18TagSelectionDialog11qt_metacastEPKc@Base 16.04
- _ZN4KPIM18TagSelectionDialog12onTagCreatedEP4KJob@Base 16.04
- _ZN4KPIM18TagSelectionDialog12setSelectionERK11QStringList@Base 16.04
- _ZN4KPIM18TagSelectionDialog16staticMetaObjectE@Base 16.04
- _ZN4KPIM18TagSelectionDialogC1EP7QWidget@Base 16.04
- _ZN4KPIM18TagSelectionDialogC2EP7QWidget@Base 16.04
- _ZN4KPIM18TagSelectionDialogD0Ev@Base 16.04
- _ZN4KPIM18TagSelectionDialogD1Ev@Base 16.04
- _ZN4KPIM18TagSelectionDialogD2Ev@Base 16.04
- _ZN4KPIM19CollectionSearchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM19CollectionSearchJob11qt_metacastEPKc@Base 16.04
- _ZN4KPIM19CollectionSearchJob16staticMetaObjectE@Base 16.04
- _ZN4KPIM19CollectionSearchJob18onAncestorsFetchedEP4KJob@Base 16.04
- _ZN4KPIM19CollectionSearchJob20onCollectionsFetchedEP4KJob@Base 16.04
- _ZN4KPIM19CollectionSearchJob21onCollectionsReceivedERK7QVectorIN7Akonadi10CollectionEE@Base 16.04
- _ZN4KPIM19CollectionSearchJob5startEv@Base 16.04
- _ZN4KPIM19CollectionSearchJobC1ERK7QStringRK11QStringListP7QObject@Base 16.04
- _ZN4KPIM19CollectionSearchJobC2ERK7QStringRK11QStringListP7QObject@Base 16.04
- _ZN4KPIM19CollectionSearchJobD0Ev@Base 16.04
- _ZN4KPIM19CollectionSearchJobD1Ev@Base 16.04
- _ZN4KPIM19CollectionSearchJobD2Ev@Base 16.04
- _ZN4KPIM19OpenEmailAddressJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM19OpenEmailAddressJob11qt_metacastEPKc@Base 16.04
- _ZN4KPIM19OpenEmailAddressJob16staticMetaObjectE@Base 16.04
- _ZN4KPIM19OpenEmailAddressJob5startEv@Base 16.04
- _ZN4KPIM19OpenEmailAddressJobC1ERK7QStringP7QWidgetP7QObject@Base 16.04
- _ZN4KPIM19OpenEmailAddressJobC2ERK7QStringP7QWidgetP7QObject@Base 16.04
- _ZN4KPIM19OpenEmailAddressJobD0Ev@Base 16.04
- _ZN4KPIM19OpenEmailAddressJobD1Ev@Base 16.04
- _ZN4KPIM19OpenEmailAddressJobD2Ev@Base 16.04
- _ZN4KPIM19RecentAddressDialog10readConfigEv@Base 16.04
- _ZN4KPIM19RecentAddressDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM19RecentAddressDialog11qt_metacastEPKc@Base 16.04
- _ZN4KPIM19RecentAddressDialog11writeConfigEv@Base 16.04
- _ZN4KPIM19RecentAddressDialog12setAddressesERK11QStringList@Base 16.04
- _ZN4KPIM19RecentAddressDialog14storeAddressesEP7KConfig@Base 16.04
- _ZN4KPIM19RecentAddressDialog16staticMetaObjectE@Base 16.04
- _ZN4KPIM19RecentAddressDialogC1EP7QWidget@Base 16.04
- _ZN4KPIM19RecentAddressDialogC2EP7QWidget@Base 16.04
- _ZN4KPIM19RecentAddressDialogD0Ev@Base 16.04
- _ZN4KPIM19RecentAddressDialogD1Ev@Base 16.04
- _ZN4KPIM19RecentAddressDialogD2Ev@Base 16.04
- _ZN4KPIM21CompletionOrderEditor10readConfigEv@Base 16.04
- _ZN4KPIM21CompletionOrderEditor11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM21CompletionOrderEditor11qt_metacastEPKc@Base 16.04
- _ZN4KPIM21CompletionOrderEditor11writeConfigEv@Base 16.04
- _ZN4KPIM21CompletionOrderEditor16staticMetaObjectE@Base 16.04
- _ZN4KPIM21CompletionOrderEditor6slotOkEv@Base 16.04
- _ZN4KPIM21CompletionOrderEditorC1EPN5KLDAP16LdapClientSearchEP7QWidget@Base 16.04
- _ZN4KPIM21CompletionOrderEditorC2EPN5KLDAP16LdapClientSearchEP7QWidget@Base 16.04
- _ZN4KPIM21CompletionOrderEditorD0Ev@Base 16.04
- _ZN4KPIM21CompletionOrderEditorD1Ev@Base 16.04
- _ZN4KPIM21CompletionOrderEditorD2Ev@Base 16.04
- _ZN4KPIM21CompletionOrderWidget10configFileEv@Base 16.04
- _ZN4KPIM21CompletionOrderWidget10slotMoveUpEv@Base 16.04
- _ZN4KPIM21CompletionOrderWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM21CompletionOrderWidget11qt_metacastEPKc@Base 16.04
- _ZN4KPIM21CompletionOrderWidget12rowsInsertedERK11QModelIndexii@Base 16.04
- _ZN4KPIM21CompletionOrderWidget12slotMoveDownEv@Base 16.04
- _ZN4KPIM21CompletionOrderWidget16staticMetaObjectE@Base 16.04
- _ZN4KPIM21CompletionOrderWidget19loadCompletionItemsEv@Base 16.04
- _ZN4KPIM21CompletionOrderWidget19setLdapClientSearchEPN5KLDAP16LdapClientSearchE@Base 16.04
- _ZN4KPIM21CompletionOrderWidget20addRecentAddressItemEv@Base 16.04
- _ZN4KPIM21CompletionOrderWidget20slotSelectionChangedEv@Base 16.04
- _ZN4KPIM21CompletionOrderWidget22completionOrderChangedEv@Base 16.04
- _ZN4KPIM21CompletionOrderWidget30addCompletionItemForCollectionERK11QModelIndex@Base 16.04
- _ZN4KPIM21CompletionOrderWidget4saveEv@Base 16.04
- _ZN4KPIM21CompletionOrderWidgetC1EP7QWidget@Base 16.04
- _ZN4KPIM21CompletionOrderWidgetC2EP7QWidget@Base 16.04
- _ZN4KPIM21CompletionOrderWidgetD0Ev@Base 16.04
- _ZN4KPIM21CompletionOrderWidgetD1Ev@Base 16.04
- _ZN4KPIM21CompletionOrderWidgetD2Ev@Base 16.04
+ _ZN4KPIM19RecentAddressWidget11eventFilterEP7QObjectP6QEvent@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidget11qt_metacastEPKc@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidget11slotAddItemEv@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidget12setAddressesERK11QStringList@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidget14slotRemoveItemEv@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidget14storeAddressesEP7KConfig@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidget16staticMetaObjectE@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidget17updateButtonStateEv@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidget19slotUpdateAddButtonERK7QString@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidgetC1EP7QWidget@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidgetC2EP7QWidget@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidgetD0Ev@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidgetD1Ev@Base 4:17.08.0
+ _ZN4KPIM19RecentAddressWidgetD2Ev@Base 4:17.08.0
+ _ZN4KPIM21AddresseeLineEditUtil15adaptPasteMailsE7QString@Base 4:17.08.0
  _ZN4KPIM21MultiplyingLineEditor10isModifiedEv@Base 16.04
  _ZN4KPIM21MultiplyingLineEditor10removeDataERK14QSharedPointerINS_19MultiplyingLineDataEE@Base 16.04
  _ZN4KPIM21MultiplyingLineEditor11lineDeletedEi@Base 16.04
@@ -614,27 +450,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN4KPIM22ProgressIndicatorLabelD0Ev@Base 16.04
  _ZN4KPIM22ProgressIndicatorLabelD1Ev@Base 16.04
  _ZN4KPIM22ProgressIndicatorLabelD2Ev@Base 16.04
- _ZN4KPIM23BlackListBalooEmailList10paintEventEP11QPaintEvent@Base 16.04
- _ZN4KPIM23BlackListBalooEmailList11changeEventEP6QEvent@Base 16.04
- _ZN4KPIM23BlackListBalooEmailList11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM23BlackListBalooEmailList11qt_metacastEPKc@Base 16.04
- _ZN4KPIM23BlackListBalooEmailList13setEmailFoundERK11QStringList@Base 16.04
- _ZN4KPIM23BlackListBalooEmailList16setExcludeDomainERK11QStringList@Base 16.04
- _ZN4KPIM23BlackListBalooEmailList16staticMetaObjectE@Base 16.04
- _ZN4KPIM23BlackListBalooEmailList17setEmailBlackListERK11QStringList@Base 16.04
- _ZN4KPIM23BlackListBalooEmailList21generalPaletteChangedEv@Base 16.04
- _ZN4KPIM23BlackListBalooEmailListC1EP7QWidget@Base 16.04
- _ZN4KPIM23BlackListBalooEmailListC2EP7QWidget@Base 16.04
- _ZN4KPIM23BlackListBalooEmailListD0Ev@Base 16.04
- _ZN4KPIM23BlackListBalooEmailListD1Ev@Base 16.04
- _ZN4KPIM23BlackListBalooEmailListD2Ev@Base 16.04
- _ZN4KPIM23BlackListBalooEmailUtil12newBlackListERK5QHashI7QStringbE@Base 16.04
- _ZN4KPIM23BlackListBalooEmailUtil16initialBlackListERK11QStringList@Base 16.04
- _ZN4KPIM23BlackListBalooEmailUtil18createNewBlackListEv@Base 16.04
- _ZN4KPIM23BlackListBalooEmailUtilC1Ev@Base 16.04
- _ZN4KPIM23BlackListBalooEmailUtilC2Ev@Base 16.04
- _ZN4KPIM23BlackListBalooEmailUtilD1Ev@Base 16.04
- _ZN4KPIM23BlackListBalooEmailUtilD2Ev@Base 16.04
  _ZN4KPIM23ProgressIndicatorWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
  _ZN4KPIM23ProgressIndicatorWidget11qt_metacastEPKc@Base 16.04
  _ZN4KPIM23ProgressIndicatorWidget16staticMetaObjectE@Base 16.04
@@ -672,80 +487,16 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN4KPIM23StatusbarProgressWidget9slotCleanEv@Base 16.04
  _ZN4KPIM23StatusbarProgressWidgetC1EPNS_14ProgressDialogEP7QWidgetb@Base 16.04
  _ZN4KPIM23StatusbarProgressWidgetC2EPNS_14ProgressDialogEP7QWidgetb@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog10readConfigEv@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog11qt_metacastEPKc@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog11writeConfigEv@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog14storeAddressesEP7KConfig@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog16staticMetaObjectE@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog17setEmailBlackListERK11QStringList@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog18setRecentAddressesERK11QStringList@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog19setLdapClientSearchEPN5KLDAP16LdapClientSearchE@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog4loadEv@Base 16.04
- _ZN4KPIM25CompletionConfigureDialog8slotSaveEv@Base 16.04
- _ZN4KPIM25CompletionConfigureDialogC1EP7QWidget@Base 16.04
- _ZN4KPIM25CompletionConfigureDialogC2EP7QWidget@Base 16.04
- _ZN4KPIM25CompletionConfigureDialogD0Ev@Base 16.04
- _ZN4KPIM25CompletionConfigureDialogD1Ev@Base 16.04
- _ZN4KPIM25CompletionConfigureDialogD2Ev@Base 16.04
- _ZN4KPIM27BlackListBalooEmailListItem19setInitializeStatusEb@Base 16.04
- _ZN4KPIM27BlackListBalooEmailListItemC1EP11QListWidget@Base 16.04
- _ZN4KPIM27BlackListBalooEmailListItemC2EP11QListWidget@Base 16.04
- _ZN4KPIM27BlackListBalooEmailListItemD0Ev@Base 16.04
- _ZN4KPIM27BlackListBalooEmailListItemD1Ev@Base 16.04
- _ZN4KPIM27BlackListBalooEmailListItemD2Ev@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJob11emailsFoundERK11QStringList@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJob11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJob11qt_metacastEPKc@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJob14setSearchEmailERK7QString@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJob16staticMetaObjectE@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJob5startEv@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJob8setLimitEi@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJobC1EP7QObject@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJobC2EP7QObject@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJobD0Ev@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJobD1Ev@Base 16.04
- _ZN4KPIM28BlackListBalooEmailSearchJobD2Ev@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialog10readConfigEv@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialog11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialog11qt_metacastEPKc@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialog11writeConfigEv@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialog16staticMetaObjectE@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialog17setEmailBlackListERK11QStringList@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialog8slotSaveEv@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialogC1EP7QWidget@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialogC2EP7QWidget@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialogD0Ev@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialogD1Ev@Base 16.04
- _ZN4KPIM35BlackListBalooEmailCompletionDialogD2Ev@Base 16.04
  _ZN4KPIM8MailList12fromMimeDataEPK9QMimeData@Base 16.04
  _ZN4KPIM8MailList12mimeDataTypeEv@Base 16.04
  _ZN4KPIM8MailList16populateMimeDataEP9QMimeData@Base 16.04
  _ZN4KPIM8MailList19serialsFromMimeDataEPK9QMimeData@Base 16.04
  _ZN4KPIM8MailList6decodeERK10QByteArray@Base 16.04
  _ZN4KPIM8MailList9canDecodeEPK9QMimeData@Base 16.04
- _ZN4KPIM8TagCombo11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM8TagCombo11qt_metacastEPKc@Base 16.04
- _ZN4KPIM8TagCombo16staticMetaObjectE@Base 16.04
- _ZN4KPIM8TagComboC1EP7QWidget@Base 16.04
- _ZN4KPIM8TagComboC2EP7QWidget@Base 16.04
  _ZN4KPIM9KPrefsWid11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
  _ZN4KPIM9KPrefsWid11qt_metacastEPKc@Base 16.04
  _ZN4KPIM9KPrefsWid16staticMetaObjectE@Base 16.04
  _ZN4KPIM9KPrefsWid7changedEv@Base 16.04
- _ZN4KPIM9TagWidget11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
- _ZN4KPIM9TagWidget11qt_metacastEPKc@Base 16.04
- _ZN4KPIM9TagWidget12onTagCreatedEP4KJob@Base 16.04
- _ZN4KPIM9TagWidget12setSelectionERK11QStringList@Base 16.04
- _ZN4KPIM9TagWidget16selectionChangedERK11QStringList@Base 16.04
- _ZN4KPIM9TagWidget16selectionChangedERK7QVectorIN7Akonadi3TagEE@Base 16.04
- _ZN4KPIM9TagWidget16staticMetaObjectE@Base 16.04
- _ZN4KPIM9TagWidget18onSelectionChangedERK7QVectorIN7Akonadi3TagEE@Base 16.04
- _ZN4KPIM9TagWidgetC1EP7QWidget@Base 16.04
- _ZN4KPIM9TagWidgetC2EP7QWidget@Base 16.04
- _ZN4KPIM9TagWidgetD0Ev@Base 16.04
- _ZN4KPIM9TagWidgetD1Ev@Base 16.04
- _ZN4KPIM9TagWidgetD2Ev@Base 16.04
  _ZN5KLDAP10LdapClient10startQueryERK7QString@Base 16.04
  _ZN5KLDAP10LdapClient11cancelQueryEv@Base 16.04
  _ZN5KLDAP10LdapClient11qt_metacallEN11QMetaObject4CallEiPPv@Base 16.04
@@ -819,10 +570,7 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN5KLDAP22LdapClientSearchConfigD0Ev@Base 16.04
  _ZN5KLDAP22LdapClientSearchConfigD1Ev@Base 16.04
  _ZN5KLDAP22LdapClientSearchConfigD2Ev@Base 16.04
- (optional=templinst)_ZN7Akonadi4Item14setPayloadImplIN9KContacts9AddresseeEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicEvE4typeERKS7_@Base 16.04
- (optional=templinst)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 16.04
- (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 16.04
  _ZNK4KPIM11MailSummary12serialNumberEv@Base 16.04
@@ -831,6 +579,7 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZNK4KPIM11MailSummary4fromEv@Base 16.04
  _ZNK4KPIM11MailSummary7subjectEv@Base 16.04
  _ZNK4KPIM11MailSummary9messageIdEv@Base 16.04
+ _ZNK4KPIM11MailSummaryeqERKS0_@Base 4:17.08.0
  _ZNK4KPIM12KPrefsDialog10metaObjectEv@Base 16.04
  _ZNK4KPIM12KPrefsModule10metaObjectEv@Base 16.04
  _ZNK4KPIM12KPrefsWidInt10metaObjectEv@Base 16.04
@@ -849,7 +598,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZNK4KPIM12ProgressItem6statusEv@Base 16.04
  _ZNK4KPIM12ProgressItem8canceledEv@Base 16.04
  _ZNK4KPIM12ProgressItem8progressEv@Base 16.04
- _ZNK4KPIM13AddContactJob10metaObjectEv@Base 16.04
  _ZNK4KPIM13KPrefsWidBool10metaObjectEv@Base 16.04
  _ZNK4KPIM13KPrefsWidBool7widgetsEv@Base 16.04
  _ZNK4KPIM13KPrefsWidDate10metaObjectEv@Base 16.04
@@ -889,42 +637,20 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZNK4KPIM15KPrefsWidString10metaObjectEv@Base 16.04
  _ZNK4KPIM15KPrefsWidString7widgetsEv@Base 16.04
  _ZNK4KPIM15MultiplyingLine10metaObjectEv@Base 16.04
- _ZNK4KPIM15PersonSearchJob10metaObjectEv@Base 16.04
- _ZNK4KPIM15PersonSearchJob7matchesEv@Base 16.04
  _ZNK4KPIM15ProgressManager10metaObjectEv@Base 16.04
  _ZNK4KPIM15ProgressManager10singleItemEv@Base 16.04
+ _ZNK4KPIM15ProgressManager12progressItemERK7QString@Base 4:17.08.0
  _ZNK4KPIM15ProgressManager7isEmptyEv@Base 16.04
  _ZNK4KPIM15RecentAddresses8maxCountEv@Base 16.04
  _ZNK4KPIM15RecentAddresses9addressesEv@Base 16.04
  _ZNK4KPIM16KDatePickerPopup10datePickerEv@Base 16.04
  _ZNK4KPIM16KDatePickerPopup10metaObjectEv@Base 16.04
- _ZNK4KPIM17AddEmailDiplayJob10metaObjectEv@Base 16.04
- _ZNK4KPIM17AddresseeLineEdit10ldapSearchEv@Base 16.04
- _ZNK4KPIM17AddresseeLineEdit10metaObjectEv@Base 16.04
- _ZNK4KPIM17AddresseeLineEdit12expandInternEv@Base 16.04
- _ZNK4KPIM17AddresseeLineEdit13groupsIsEmptyEv@Base 16.04
- _ZNK4KPIM17AddresseeLineEdit14balooBlackListEv@Base 16.04
- _ZNK4KPIM17AddresseeLineEdit15autoGroupExpandEv@Base 16.04
- _ZNK4KPIM17AddresseeLineEdit19isCompletionEnabledEv@Base 16.04
- _ZNK4KPIM17AddresseeLineEdit19recentAddressConfigEv@Base 16.04
- _ZNK4KPIM17AddresseeLineEdit19showRecentAddressesEv@Base 16.04
  _ZNK4KPIM17KPrefsWidDuration10metaObjectEv@Base 16.04
- _ZNK4KPIM17TagSelectionCombo10metaObjectEv@Base 16.04
- _ZNK4KPIM18AddEmailAddressJob10metaObjectEv@Base 16.04
- _ZNK4KPIM18AddEmailAddressJob7contactEv@Base 16.04
  _ZNK4KPIM18KWeekdayCheckCombo10metaObjectEv@Base 16.04
  _ZNK4KPIM18KWeekdayCheckCombo12weekdayIndexERK5QDate@Base 16.04
  _ZNK4KPIM18KWeekdayCheckCombo4daysEv@Base 16.04
- _ZNK4KPIM18TagSelectionDialog10metaObjectEv@Base 16.04
- _ZNK4KPIM18TagSelectionDialog12tagSelectionEv@Base 16.04
- _ZNK4KPIM18TagSelectionDialog9selectionEv@Base 16.04
- _ZNK4KPIM19CollectionSearchJob10metaObjectEv@Base 16.04
- _ZNK4KPIM19CollectionSearchJob19matchingCollectionsEv@Base 16.04
- _ZNK4KPIM19OpenEmailAddressJob10metaObjectEv@Base 16.04
- _ZNK4KPIM19RecentAddressDialog10metaObjectEv@Base 16.04
- _ZNK4KPIM19RecentAddressDialog10wasChangedEv@Base 16.04
- _ZNK4KPIM21CompletionOrderEditor10metaObjectEv@Base 16.04
- _ZNK4KPIM21CompletionOrderWidget10metaObjectEv@Base 16.04
+ _ZNK4KPIM19RecentAddressWidget10metaObjectEv@Base 4:17.08.0
+ _ZNK4KPIM19RecentAddressWidget10wasChangedEv@Base 4:17.08.0
  _ZNK4KPIM21MultiplyingLineEditor10activeDataEv@Base 16.04
  _ZNK4KPIM21MultiplyingLineEditor10activeLineEv@Base 16.04
  _ZNK4KPIM21MultiplyingLineEditor10metaObjectEv@Base 16.04
@@ -934,23 +660,13 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZNK4KPIM21MultiplyingLineEditor7factoryEv@Base 16.04
  _ZNK4KPIM22MultiplyingLineFactory10metaObjectEv@Base 16.04
  _ZNK4KPIM22ProgressIndicatorLabel10metaObjectEv@Base 16.04
- _ZNK4KPIM23BlackListBalooEmailList10metaObjectEv@Base 16.04
- _ZNK4KPIM23BlackListBalooEmailList20blackListItemChangedEv@Base 16.04
  _ZNK4KPIM23ProgressIndicatorWidget10metaObjectEv@Base 16.04
  _ZNK4KPIM23ProgressIndicatorWidget8isActiveEv@Base 16.04
  _ZNK4KPIM23ProgressStatusBarWidget10metaObjectEv@Base 16.04
  _ZNK4KPIM23ProgressStatusBarWidget14littleProgressEv@Base 16.04
  _ZNK4KPIM23StatusbarProgressWidget10metaObjectEv@Base 16.04
- _ZNK4KPIM25CompletionConfigureDialog10metaObjectEv@Base 16.04
- _ZNK4KPIM25CompletionConfigureDialog23recentAddressWasChangedEv@Base 16.04
- _ZNK4KPIM27BlackListBalooEmailListItem16initializeStatusEv@Base 16.04
- _ZNK4KPIM28BlackListBalooEmailSearchJob10metaObjectEv@Base 16.04
- _ZNK4KPIM35BlackListBalooEmailCompletionDialog10metaObjectEv@Base 16.04
- _ZNK4KPIM8TagCombo10metaObjectEv@Base 16.04
  _ZNK4KPIM9KPrefsWid10metaObjectEv@Base 16.04
  _ZNK4KPIM9KPrefsWid7widgetsEv@Base 16.04
- _ZNK4KPIM9TagWidget10metaObjectEv@Base 16.04
- _ZNK4KPIM9TagWidget9selectionEv@Base 16.04
  _ZNK5KLDAP10LdapClient10attributesEv@Base 16.04
  _ZNK5KLDAP10LdapClient10metaObjectEv@Base 16.04
  _ZNK5KLDAP10LdapClient12clientNumberEv@Base 16.04
@@ -966,13 +682,10 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZNK5KLDAP16LdapSearchDialog10metaObjectEv@Base 16.04
  _ZNK5KLDAP16LdapSearchDialog16selectedContactsEv@Base 16.04
  _ZNK5KLDAP22LdapClientSearchConfig10metaObjectEv@Base 16.04
- (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN9KContacts12ContactGroupEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES7_E4typeEv@Base 16.04
- (optional=templinst)_ZNK7Akonadi4Item11payloadImplIN9KContacts9AddresseeEEENSt9enable_ifIXntsrNS_8Internal12PayloadTraitIT_EE13isPolymorphicES7_E4typeEv@Base 16.04
  _ZTIN4KPIM12KPrefsDialogE@Base 16.04
  _ZTIN4KPIM12KPrefsModuleE@Base 16.04
  _ZTIN4KPIM12KPrefsWidIntE@Base 16.04
  _ZTIN4KPIM12ProgressItemE@Base 16.04
- _ZTIN4KPIM13AddContactJobE@Base 16.04
  _ZTIN4KPIM13KPrefsWidBoolE@Base 16.04
  _ZTIN4KPIM13KPrefsWidDateE@Base 16.04
  _ZTIN4KPIM13KPrefsWidFontE@Base 16.04
@@ -990,36 +703,19 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZTIN4KPIM15KPrefsWidRadiosE@Base 16.04
  _ZTIN4KPIM15KPrefsWidStringE@Base 16.04
  _ZTIN4KPIM15MultiplyingLineE@Base 16.04
- _ZTIN4KPIM15PersonSearchJobE@Base 16.04
  _ZTIN4KPIM15ProgressManagerE@Base 16.04
  _ZTIN4KPIM16KDatePickerPopupE@Base 16.04
  _ZTIN4KPIM16KPrefsWidManagerE@Base 16.04
- _ZTIN4KPIM17AddEmailDiplayJobE@Base 16.04
- _ZTIN4KPIM17AddresseeLineEditE@Base 16.04
  _ZTIN4KPIM17KPrefsWidDurationE@Base 16.04
- _ZTIN4KPIM17TagSelectionComboE@Base 16.04
- _ZTIN4KPIM18AddEmailAddressJobE@Base 16.04
  _ZTIN4KPIM18KWeekdayCheckComboE@Base 16.04
- _ZTIN4KPIM18TagSelectionDialogE@Base 16.04
- _ZTIN4KPIM19CollectionSearchJobE@Base 16.04
- _ZTIN4KPIM19OpenEmailAddressJobE@Base 16.04
- _ZTIN4KPIM19RecentAddressDialogE@Base 16.04
- _ZTIN4KPIM21CompletionOrderEditorE@Base 16.04
- _ZTIN4KPIM21CompletionOrderWidgetE@Base 16.04
+ _ZTIN4KPIM19RecentAddressWidgetE@Base 4:17.08.0
  _ZTIN4KPIM21MultiplyingLineEditorE@Base 16.04
  _ZTIN4KPIM22MultiplyingLineFactoryE@Base 16.04
  _ZTIN4KPIM22ProgressIndicatorLabelE@Base 16.04
- _ZTIN4KPIM23BlackListBalooEmailListE@Base 16.04
  _ZTIN4KPIM23ProgressIndicatorWidgetE@Base 16.04
  _ZTIN4KPIM23ProgressStatusBarWidgetE@Base 16.04
  _ZTIN4KPIM23StatusbarProgressWidgetE@Base 16.04
- _ZTIN4KPIM25CompletionConfigureDialogE@Base 16.04
- _ZTIN4KPIM27BlackListBalooEmailListItemE@Base 16.04
- _ZTIN4KPIM28BlackListBalooEmailSearchJobE@Base 16.04
- _ZTIN4KPIM35BlackListBalooEmailCompletionDialogE@Base 16.04
- _ZTIN4KPIM8TagComboE@Base 16.04
  _ZTIN4KPIM9KPrefsWidE@Base 16.04
- _ZTIN4KPIM9TagWidgetE@Base 16.04
  _ZTIN5KLDAP10LdapClientE@Base 16.04
  _ZTIN5KLDAP13AddHostDialogE@Base 16.04
  _ZTIN5KLDAP16LdapClientSearchE@Base 16.04
@@ -1029,7 +725,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZTSN4KPIM12KPrefsModuleE@Base 16.04
  _ZTSN4KPIM12KPrefsWidIntE@Base 16.04
  _ZTSN4KPIM12ProgressItemE@Base 16.04
- _ZTSN4KPIM13AddContactJobE@Base 16.04
  _ZTSN4KPIM13KPrefsWidBoolE@Base 16.04
  _ZTSN4KPIM13KPrefsWidDateE@Base 16.04
  _ZTSN4KPIM13KPrefsWidFontE@Base 16.04
@@ -1047,36 +742,19 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZTSN4KPIM15KPrefsWidRadiosE@Base 16.04
  _ZTSN4KPIM15KPrefsWidStringE@Base 16.04
  _ZTSN4KPIM15MultiplyingLineE@Base 16.04
- _ZTSN4KPIM15PersonSearchJobE@Base 16.04
  _ZTSN4KPIM15ProgressManagerE@Base 16.04
  _ZTSN4KPIM16KDatePickerPopupE@Base 16.04
  _ZTSN4KPIM16KPrefsWidManagerE@Base 16.04
- _ZTSN4KPIM17AddEmailDiplayJobE@Base 16.04
- _ZTSN4KPIM17AddresseeLineEditE@Base 16.04
  _ZTSN4KPIM17KPrefsWidDurationE@Base 16.04
- _ZTSN4KPIM17TagSelectionComboE@Base 16.04
- _ZTSN4KPIM18AddEmailAddressJobE@Base 16.04
  _ZTSN4KPIM18KWeekdayCheckComboE@Base 16.04
- _ZTSN4KPIM18TagSelectionDialogE@Base 16.04
- _ZTSN4KPIM19CollectionSearchJobE@Base 16.04
- _ZTSN4KPIM19OpenEmailAddressJobE@Base 16.04
- _ZTSN4KPIM19RecentAddressDialogE@Base 16.04
- _ZTSN4KPIM21CompletionOrderEditorE@Base 16.04
- _ZTSN4KPIM21CompletionOrderWidgetE@Base 16.04
+ _ZTSN4KPIM19RecentAddressWidgetE@Base 4:17.08.0
  _ZTSN4KPIM21MultiplyingLineEditorE@Base 16.04
  _ZTSN4KPIM22MultiplyingLineFactoryE@Base 16.04
  _ZTSN4KPIM22ProgressIndicatorLabelE@Base 16.04
- _ZTSN4KPIM23BlackListBalooEmailListE@Base 16.04
  _ZTSN4KPIM23ProgressIndicatorWidgetE@Base 16.04
  _ZTSN4KPIM23ProgressStatusBarWidgetE@Base 16.04
  _ZTSN4KPIM23StatusbarProgressWidgetE@Base 16.04
- _ZTSN4KPIM25CompletionConfigureDialogE@Base 16.04
- _ZTSN4KPIM27BlackListBalooEmailListItemE@Base 16.04
- _ZTSN4KPIM28BlackListBalooEmailSearchJobE@Base 16.04
- _ZTSN4KPIM35BlackListBalooEmailCompletionDialogE@Base 16.04
- _ZTSN4KPIM8TagComboE@Base 16.04
  _ZTSN4KPIM9KPrefsWidE@Base 16.04
- _ZTSN4KPIM9TagWidgetE@Base 16.04
  _ZTSN5KLDAP10LdapClientE@Base 16.04
  _ZTSN5KLDAP13AddHostDialogE@Base 16.04
  _ZTSN5KLDAP16LdapClientSearchE@Base 16.04
@@ -1086,7 +764,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZTVN4KPIM12KPrefsModuleE@Base 16.04
  _ZTVN4KPIM12KPrefsWidIntE@Base 16.04
  _ZTVN4KPIM12ProgressItemE@Base 16.04
- _ZTVN4KPIM13AddContactJobE@Base 16.04
  _ZTVN4KPIM13KPrefsWidBoolE@Base 16.04
  _ZTVN4KPIM13KPrefsWidDateE@Base 16.04
  _ZTVN4KPIM13KPrefsWidFontE@Base 16.04
@@ -1104,36 +781,19 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZTVN4KPIM15KPrefsWidRadiosE@Base 16.04
  _ZTVN4KPIM15KPrefsWidStringE@Base 16.04
  _ZTVN4KPIM15MultiplyingLineE@Base 16.04
- _ZTVN4KPIM15PersonSearchJobE@Base 16.04
  _ZTVN4KPIM15ProgressManagerE@Base 16.04
  _ZTVN4KPIM16KDatePickerPopupE@Base 16.04
  _ZTVN4KPIM16KPrefsWidManagerE@Base 16.04
- _ZTVN4KPIM17AddEmailDiplayJobE@Base 16.04
- _ZTVN4KPIM17AddresseeLineEditE@Base 16.04
  _ZTVN4KPIM17KPrefsWidDurationE@Base 16.04
- _ZTVN4KPIM17TagSelectionComboE@Base 16.04
- _ZTVN4KPIM18AddEmailAddressJobE@Base 16.04
  _ZTVN4KPIM18KWeekdayCheckComboE@Base 16.04
- _ZTVN4KPIM18TagSelectionDialogE@Base 16.04
- _ZTVN4KPIM19CollectionSearchJobE@Base 16.04
- _ZTVN4KPIM19OpenEmailAddressJobE@Base 16.04
- _ZTVN4KPIM19RecentAddressDialogE@Base 16.04
- _ZTVN4KPIM21CompletionOrderEditorE@Base 16.04
- _ZTVN4KPIM21CompletionOrderWidgetE@Base 16.04
+ _ZTVN4KPIM19RecentAddressWidgetE@Base 4:17.08.0
  _ZTVN4KPIM21MultiplyingLineEditorE@Base 16.04
  _ZTVN4KPIM22MultiplyingLineFactoryE@Base 16.04
  _ZTVN4KPIM22ProgressIndicatorLabelE@Base 16.04
- _ZTVN4KPIM23BlackListBalooEmailListE@Base 16.04
  _ZTVN4KPIM23ProgressIndicatorWidgetE@Base 16.04
  _ZTVN4KPIM23ProgressStatusBarWidgetE@Base 16.04
  _ZTVN4KPIM23StatusbarProgressWidgetE@Base 16.04
- _ZTVN4KPIM25CompletionConfigureDialogE@Base 16.04
- _ZTVN4KPIM27BlackListBalooEmailListItemE@Base 16.04
- _ZTVN4KPIM28BlackListBalooEmailSearchJobE@Base 16.04
- _ZTVN4KPIM35BlackListBalooEmailCompletionDialogE@Base 16.04
- _ZTVN4KPIM8TagComboE@Base 16.04
  _ZTVN4KPIM9KPrefsWidE@Base 16.04
- _ZTVN4KPIM9TagWidgetE@Base 16.04
  _ZTVN5KLDAP10LdapClientE@Base 16.04
  _ZTVN5KLDAP13AddHostDialogE@Base 16.04
  _ZTVN5KLDAP16LdapClientSearchE@Base 16.04
@@ -1141,12 +801,6 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZTVN5KLDAP22LdapClientSearchConfigE@Base 16.04
  (c++)"non-virtual thunk to KLDAP::AddHostDialog::~AddHostDialog()@Base" 16.04
  (c++)"non-virtual thunk to KLDAP::LdapSearchDialog::~LdapSearchDialog()@Base" 16.04
- (c++)"non-virtual thunk to KPIM::AddresseeLineEdit::~AddresseeLineEdit()@Base" 16.04
- (c++)"non-virtual thunk to KPIM::BlackListBalooEmailCompletionDialog::~BlackListBalooEmailCompletionDialog()@Base" 16.04
- (c++)"non-virtual thunk to KPIM::BlackListBalooEmailList::~BlackListBalooEmailList()@Base" 16.04
- (c++)"non-virtual thunk to KPIM::CompletionConfigureDialog::~CompletionConfigureDialog()@Base" 16.04
- (c++)"non-virtual thunk to KPIM::CompletionOrderEditor::~CompletionOrderEditor()@Base" 16.04
- (c++)"non-virtual thunk to KPIM::CompletionOrderWidget::~CompletionOrderWidget()@Base" 16.04
  (c++)"non-virtual thunk to KPIM::CustomLogWidget::~CustomLogWidget()@Base" 16.04
  (c++)"non-virtual thunk to KPIM::KCheckComboBox::~KCheckComboBox()@Base" 16.04
  (c++)"non-virtual thunk to KPIM::KDatePickerPopup::~KDatePickerPopup()@Base" 16.04
@@ -1159,6 +813,4 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  (c++)"non-virtual thunk to KPIM::ProgressDialog::~ProgressDialog()@Base" 16.04
  (c++)"non-virtual thunk to KPIM::ProgressIndicatorLabel::~ProgressIndicatorLabel()@Base" 16.04
  (c++)"non-virtual thunk to KPIM::ProgressIndicatorWidget::~ProgressIndicatorWidget()@Base" 16.04
- (c++)"non-virtual thunk to KPIM::RecentAddressDialog::~RecentAddressDialog()@Base" 16.04
- (c++)"non-virtual thunk to KPIM::TagSelectionDialog::~TagSelectionDialog()@Base" 16.04
- (c++)"non-virtual thunk to KPIM::TagWidget::~TagWidget()@Base" 16.04
+ (c++)"non-virtual thunk to KPIM::RecentAddressWidget::~RecentAddressWidget()@Base" 4:17.08.0
