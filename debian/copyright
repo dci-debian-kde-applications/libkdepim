@@ -1,6 +1,106 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 
 Files: *
+Copyright: 2010, Bertjan Broeksema <broeksema@kde.org>
+           2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           2000, Don Sanders <sanders@kde.org>
+           1951, Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
+           1989-1991, Free Software Foundation, Inc
+           2017, Montel Laurent <montel@kde.org>
+           2004, Reinhold Kainhofer <reinhold@kainhofer.com>
+           2008, Thomas Thrainer <tom_t@gmx.at>
+           2002-2016, Free Software Foundation, Inc
+           2005, KDE Russian translation team
+           2002, Meni Livne <livne@kde.org>
+           2003-2017, This_file_is_part_of_KDE
+License: GPL-2+
+
+Files: po/uk/*
+Copyright: 2004-2017, This_file_is_part_of_KDE
+License: LGPL-2.1+3+KDEeV
+
+Files: src/libkdepim/addressline/addresslineedit/*
+       src/libkdepim/addressline/autotests/addresseelineeditutiltest.cpp
+       src/libkdepim/addressline/autotests/addresseelineeditutiltest.h
+       src/libkdepim/addressline/autotests/recentaddresswidgettest.cpp
+       src/libkdepim/addressline/autotests/recentaddresswidgettest.h
+       src/libkdepim/addressline/recentaddress/*
+       src/libkdepim/ldap/addhostdialog.cpp
+       src/libkdepim/ldap/addhostdialog.h
+       src/libkdepim/ldap/kcmldap.cpp
+       src/libkdepim/ldap/kcmldap_p.h
+       src/libkdepim/ldap/ldapclient.cpp
+       src/libkdepim/ldap/ldapclient.h
+       src/libkdepim/ldap/ldapclientsearch.cpp
+       src/libkdepim/ldap/ldapclientsearch.h
+       src/libkdepim/ldap/ldapclientsearchconfig.cpp
+       src/libkdepim/ldap/ldapclientsearchconfig.h
+       src/libkdepim/ldap/ldapsearchdialog.cpp
+       src/libkdepim/ldap/ldapsearchdialog.h
+       src/libkdepim/libkdepim_private_export.h
+       src/libkdepim/misc/emailvalidator.cpp
+       src/libkdepim/misc/emailvalidator.h
+       src/libkdepim/misc/maillistdrag.cpp
+       src/libkdepim/misc/maillistdrag.h
+       src/libkdepim/misc/uistatesaver.cpp
+       src/libkdepim/misc/uistatesaver.h
+       src/libkdepim/multiplyingline/*
+       src/libkdepim/prefs/*
+       src/libkdepim/progresswidget/*
+       src/libkdepim/tests/kcheckcomboboxtest_gui.cpp
+       src/libkdepim/tests/ldapsearchdialog_gui.cpp
+       src/libkdepim/widgets/customlogwidget.cpp
+       src/libkdepim/widgets/customlogwidget.h
+       src/libkdepim/widgets/kdatepickerpopup.cpp
+       src/libkdepim/widgets/kdatepickerpopup.h
+       src/libkdepim/widgets/kweekdaycheckcombo.cpp
+       src/libkdepim/widgets/kweekdaycheckcombo.h
+       src/libkdepim/widgets/progressindicatorlabel.cpp
+       src/libkdepim/widgets/progressindicatorlabel.h
+       src/libkdepim/widgets/progressindicatorwidget.cpp
+       src/libkdepim/widgets/progressindicatorwidget.h
+       src/libkdepimakonadi/addressline/addresslineedit/*
+       src/libkdepimakonadi/addressline/autotests/baloocompletionemailtest.cpp
+       src/libkdepimakonadi/addressline/autotests/baloocompletionemailtest.h
+       src/libkdepimakonadi/addressline/autotests/completionconfiguredialogtest.cpp
+       src/libkdepimakonadi/addressline/autotests/completionconfiguredialogtest.h
+       src/libkdepimakonadi/addressline/autotests/completionorderwidgettest.cpp
+       src/libkdepimakonadi/addressline/autotests/completionorderwidgettest.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemailcompletionwidgettest.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemailcompletionwidgettest.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemaillisttest.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemaillisttest.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemailsearchjobtest.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemailsearchjobtest.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemailutiltest.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemailutiltest.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemailwarningtest.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/autotests/blacklistbalooemailwarningtest.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailcompletionwidget.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemaillist.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemaillist.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailsearchjob.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailsearchjob.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailutil.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailutil.h
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailwarning.cpp
+       src/libkdepimakonadi/addressline/blacklistbaloocompletion/blacklistbalooemailwarning.h
+       src/libkdepimakonadi/addressline/completionconfiguredialog/*
+       src/libkdepimakonadi/addressline/completionorder/*
+       src/libkdepimakonadi/addressline/plugins/*
+       src/libkdepimakonadi/job/addcontactjob.cpp
+       src/libkdepimakonadi/job/addcontactjob.h
+       src/libkdepimakonadi/job/addemailaddressjob.cpp
+       src/libkdepimakonadi/job/addemailaddressjob.h
+       src/libkdepimakonadi/job/addemaildisplayjob.cpp
+       src/libkdepimakonadi/job/addemaildisplayjob.h
+       src/libkdepimakonadi/job/openemailaddressjob.cpp
+       src/libkdepimakonadi/job/openemailaddressjob.h
+       src/libkdepimakonadi/libkdepimakonadi_private_export.h
+       src/libkdepimakonadi/progresswidget/*
+       src/libkdepimakonadi/tests/completionconfiguredialog_gui.cpp
+       src/libkdepimakonadi/tests/testaddresseelineedit.cpp
 Copyright: 2005-2011, Allen Winter <winter@kde.org>
            2010, Bertjan Broeksema <broeksema@kde.org>
            2004, Bram Schoenmakers <bramschoenmakers@kde.nl>
@@ -17,8 +117,8 @@ Copyright: 2005-2011, Allen Winter <winter@kde.org>
            2004, Karl-Heinz Zimmer <khz@klaralvdalens-datakonsult.se>
            2009-2010, Klaralvdalens Datakonsult AB, a KDAB Group company <info@kdab.net>
            2002, Klarälvdalens Datakonsult AB
+           2012-2017, Laurent Montel <montel@kde.org>
            2002, Lubos Lunak <llunak@suse.cz>
-           2013-2016, Montel Laurent <montel@kde.org>
            2010, Nicolas Lécureuil <nicolas.lecureuil@free.fr>
            2005, Rafal Rzepecki <divide@users.sourceforge.net>
            2003-2004, Reinhold Kainhofer <reinhold@kainhofer.com>
@@ -29,62 +129,40 @@ Copyright: 2005-2011, Allen Winter <winter@kde.org>
            2001, Waldo Bastian <bastian@kde.org>
 License: LGPL-2+
 
-Files: src/addressline/addresslineedit/addresseelineedit_p.cpp
-       src/addressline/addresslineedit/addresseelineedit_p.h
-       src/addressline/addresslineedit/addresseelineeditstatic.cpp
-       src/addressline/addresslineedit/addresseelineeditstatic.h
-       src/addressline/completionorder/completionordereditor.cpp
-       src/addressline/completionorder/completionordereditor.h
-       src/addressline/recentaddress/recentaddresses.cpp
-       src/addressline/recentaddress/recentaddresses.h
-       src/progresswidget/progressdialog.cpp
-       src/progresswidget/progressdialog.h
-       src/progresswidget/progressstatusbarwidget.cpp
-       src/progresswidget/progressstatusbarwidget.h
-       src/progresswidget/ssllabel.cpp
-       src/progresswidget/ssllabel.h
-       src/progresswidget/statusbarprogresswidget.cpp
-       src/progresswidget/statusbarprogresswidget.h
-       src/widgets/customlogwidget.cpp
-       src/widgets/customlogwidget.h
-       src/widgets/kwidgetlister.cpp
-       src/widgets/kwidgetlister.h
-       src/widgets/overlaywidget.cpp
-       src/widgets/overlaywidget.h
-       src/widgets/tagselectioncombo.cpp
-       src/widgets/tagselectioncombo.h
-       src/widgets/tagwidgets.cpp
-       src/widgets/tagwidgets.h
+Files: src/libkdepim/addressline/recentaddress/recentaddresses.cpp
+       src/libkdepim/addressline/recentaddress/recentaddresses.h
+       src/libkdepim/progresswidget/progressdialog.cpp
+       src/libkdepim/progresswidget/progressdialog.h
+       src/libkdepim/progresswidget/ssllabel.cpp
+       src/libkdepim/progresswidget/ssllabel.h
+       src/libkdepim/progresswidget/statusbarprogresswidget.cpp
+       src/libkdepim/progresswidget/statusbarprogresswidget.h
+       src/libkdepim/widgets/kwidgetlister.cpp
+       src/libkdepim/widgets/kwidgetlister.h
+       src/libkdepim/widgets/overlaywidget.cpp
+       src/libkdepim/widgets/overlaywidget.h
+       src/libkdepimakonadi/addressline/addresslineedit/addresseelineedit_p.cpp
+       src/libkdepimakonadi/addressline/addresslineedit/addresseelineedit_p.h
+       src/libkdepimakonadi/addressline/addresslineedit/addresseelineeditmanager.cpp
+       src/libkdepimakonadi/addressline/addresslineedit/addresseelineeditmanager.h
+       src/libkdepimakonadi/addressline/completionorder/completionordereditor.cpp
+       src/libkdepimakonadi/addressline/completionorder/completionordereditor.h
+       src/libkdepimakonadi/widgets/*
 Copyright: 2001-2003, Carsten Pfeiffer <pfeiffer@kde.org>
            2014, Christian Mollekopf <mollekopf@kolabsys.com>
+           David Faure <dfaure@kde.org>
            2004, David Faure <faure@kde.org>
+           Don Sanders
            2002-2003, Klar�vdalens Datakonsult AB
            2001, Marc Mutz <mutz@kde.org>
-           2012-2016, Montel Laurent <montel@kde.org>
+           2015-2017, Montel Laurent <montel@kde.org>
            2004, Till Adam <adam@kde.org>
+           2010, Tobias Koenig <tokoe@kde.org>
            2003, Zack Rusin <zack@kde.org>
 License: GPL-2
 
-Files: src/job/collectionsearchjob.cpp
-       src/job/collectionsearchjob.h
-       src/job/person.h
-       src/job/personsearchjob.cpp
-       src/job/personsearchjob.h
-       src/misc/broadcaststatus.cpp
-       src/misc/broadcaststatus.h
-       src/widgets/kcheckcombobox.cpp
-       src/widgets/kcheckcombobox.h
-       src/widgets/pimmessagebox.cpp
-       src/widgets/pimmessagebox.h
-Copyright: 2010, Bertjan Broeksema <broeksema@kde.org>
-           2014, Christian Mollekopf <mollekopf@kolabsys.com>
-           2000, Don Sanders <sanders@kde.org>
-           2004, Reinhold Kainhofer <reinhold@kainhofer.com>
-           2008, Thomas Thrainer <tom_t@gmx.at>
-License: GPL-2+
-
-Files: tests/testldapclient.cpp
-       tests/testldapclient.h
+Files: src/libkdepim/tests/testldapclient.cpp
+       src/libkdepim/tests/testldapclient.h
 Copyright: 2005, David Faure <faure@kde.org>
 License: LGPL-2
 
@@ -145,3 +223,12 @@ License: LGPL-2+
  .
  The complete text of the GNU Library General Public License version 2
  can be found in `/usr/share/common-licenses/LGPL-2'.
+
+License: LGPL-2.1+3+KDEeV
+ This file is distributed under the license LGPL version 2.1 or
+ version 3 or later versions approved by the membership of KDE e.V.
+ .
+ The complete text of the GNU Lesser General Public License version 2.1
+ can be found in `/usr/share/common-licenses/LGPL-2.1', likewise, the complete
+ text of the GNU Lesser Genereal Public License version 3 can be found in
+ `/usr/share/common-licenses/LGPL-3'.
