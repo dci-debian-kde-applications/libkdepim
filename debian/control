@@ -14,7 +14,6 @@ Build-Depends: cmake (>= 3.0~),
                libkf5completion-dev (>= 5.35.0~),
                libkf5config-dev (>= 5.35.0~),
                libkf5configwidgets-dev (>= 5.35.0~),
-               libkf5contacteditor-dev (>= 17.08~),
                libkf5contacts-dev (>= 4:17.08.3~),
                libkf5coreaddons-dev (>= 5.35.0~),
                libkf5i18n-dev (>= 5.35.0~),
@@ -24,12 +23,11 @@ Build-Depends: cmake (>= 3.0~),
                libkf5kcmutils-dev (>= 5.35.0~),
                libkf5kio-dev (>= 5.35.0~),
                libkf5ldap-dev (>= 17.08.3~),
-               libkf5mime-dev (>= 17.08~),
                libkf5wallet-dev (>= 5.35.0~),
                libkf5widgetsaddons-dev (>= 5.35.0~),
                pkg-kde-tools (>= 0.12),
                qtbase5-dev (>= 5.7.0~),
-               qttools5-dev (>= 5.4.0~),
+               qttools5-dev
 Standards-Version: 4.1.2
 Homepage: http://pim.kde.org/
 Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/applications/libkdepim.git
