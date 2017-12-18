@@ -63,6 +63,7 @@ Section: libdevel
 Architecture: any
 Multi-Arch: same
 Depends: libkf5akonadi-dev (>= 4:17.08.3~),
+         libkf5akonadicontact-dev (>= 4:17.08.3~),
          libkf5completion-dev (>= 5.35.0~),
          libkf5contacts-dev (>= 4:17.08.3~),
          libkf5coreaddons-dev (>= 5.35.0~),
