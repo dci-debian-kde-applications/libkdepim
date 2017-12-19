@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4:17.08.0 amd64
+# SymbolsHelper-Confirmed: 4:17.08.0 alpha amd64 armel armhf i386 m68k mips mips64el mipsel powerpc ppc64 ppc64el s390x
 libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 16.04
  (subst)_ZN4KPIM11MailSummary3setEjRK7QStringS3_S3_S3_{time_t}@Base 16.04
@@ -570,7 +570,8 @@ libKF5Libkdepim.so.5 libkf5libkdepim5 #MINVER#, libkf5libkdepim-plugins
  _ZN5KLDAP22LdapClientSearchConfigD0Ev@Base 16.04
  _ZN5KLDAP22LdapClientSearchConfigD1Ev@Base 16.04
  _ZN5KLDAP22LdapClientSearchConfigD2Ev@Base 16.04
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 16.04
+ (optional=templinst|arch=!amd64)_ZNK12KConfigGroup9readEntryI10QByteArrayEET_PKcRKS2_@Base 4:17.08.0
+ (optional=templinst|arch=!alpha !i386 !mips !mipsel !ppc64 !s390x)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 16.04
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEET_PKcRKS1_@Base 16.04
  _ZNK4KPIM11MailSummary12serialNumberEv@Base 16.04
